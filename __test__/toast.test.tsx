@@ -1,5 +1,5 @@
 import {renderHook, act, screen} from "@testing-library/react";
-import {useToast} from "@/lib/hooks/useToast";
+import {useToast} from "@/lib/hooks/global/useToast";
 import {ClientProvider} from "../src/components/provider/ClientProvider";
 
 type ToastFunction = ReturnType<typeof useToast>;
